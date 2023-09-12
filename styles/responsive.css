@@ -77,6 +77,17 @@
 
 }
 
+
+/*  paly direction start */
+.paly-direction {
+    width: 420px;
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*  paly direction end*/
 }
 
 
