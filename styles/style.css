@@ -370,5 +370,107 @@ width: 60px;
 /* game sample end  */
 
 
+/* gamer footer style start */
+.gamer-footer{
+background: #0B0223;
+width: 100%;
+min-height: 600px;
+
+}
+.footer-logo{
+   display: flex;
+   justify-content: center;
+  align-items: center;
+  gap: 20px;
+   
+}
+
+.gamer-footer .footer-logo h2{
+    /* text-align: center; */
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        color: #FFF;
+        margin-top: 50px;
+}
+.footer-logo img{
+    width: 86.041px;
+        height: 40px;
+        margin-top: 50px;
+}
+.footer-logo span{
+    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+
+.footer-nav ul{
+width: 800px;
+display: flex;
+margin:30px auto 0;
+justify-content: center;
+align-items: center;
+gap: 60px;
+padding: 20px;
+}
+.footer-nav ul li{
+    list-style: none;
+    color: #FFF;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+}
+
+.footer-icon{
+    max-width: 600px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 70px auto 0;
+    gap: 40px;
+}
+.footer-icon img{
+    border-radius:50% ;
+    width: 40px;
+        height: 40px;
+        flex-shrink: 0;
+}
+.footer-condition ul{
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto 0;
+    gap: 60px;
+}
+
+.footer-condition ul li{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.60);
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+}
+
+
+.copyright-text p{
+     color: rgba(255, 255, 255, 0.60);
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 50px;
+}
+/* gamere footer style end */
+
 
 
